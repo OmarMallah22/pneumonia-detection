@@ -96,7 +96,7 @@ const Register = () => {
       // );
 
       const { data, message } = await axios.post(
-        `http://chestcancerdetection.runasp.net/api/User/register`,
+        `https://chestcancerdetection.runasp.net/api/User/register`,
         {
           userName: formData.name,
           email: formData.email,
