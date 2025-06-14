@@ -41,7 +41,7 @@ const Doctors = () => {
     const fetchDoctors = async () => {
       setLoading(true);
       const { data } = await axios.get(
-        `https://chestcancerdetection.runasp.net/api/Doctor/GetAllDoctor`
+        `https://chestcancerdetectionx.runasp.net/api/Doctor/GetAllDoctor`
       );
 
       console.log("Fetched doctors data:", data);

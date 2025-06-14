@@ -39,7 +39,7 @@ const Login = () => {
 
     try {
       const { data, error } = await axios.post(
-        "https://chestcancerdetection.runasp.net/api/User/login",
+        "https://chestcancerdetectionx.runasp.net/api/User/login",
         {
           email: formData.email,
           passWord: formData.password,
